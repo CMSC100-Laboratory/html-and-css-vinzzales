@@ -1,3 +1,9 @@
+<!--This is an HTML file that create an HTML page for setting up a profile page with details. -->
+
+<!--Created by: Vinz Uriel C. Gonzales - B3L
+Exercise 2 - (2/12/2025)-->
+
+
 <!DOCTYPE html>
 
 <html>
@@ -25,7 +31,7 @@
         </div>
 
         <div class="flex-item1" style="flex: 1">
-            <a href="#skills" class="image-button">
+            <a href="#autobiography" class="image-button">
                 <img src="skills.png" alt="Go to AutoBiography section" class="navigation-buttons">
                 <p>skills</p>
             </a>
@@ -83,14 +89,14 @@
             </p>
         </div>
         <div class="flex-item3" style="flex: 3;">
-            <img src="passengerrush.png" alt="Restaurant Management" class="project-images">
+            <img src="passengerrush.png" alt="Passenger Rush" class="project-images">
             <p>This is an interactive 2-player game created on javafx. This game allows user to duel as they accumulate passengers
                 on a given time. Along with this, they are also faced with various obstacles and rewarded with certain power-ups as well.
                 The winner with the most passenger drop-offs wins the game.
             </p>
         </div>
         <div class="flex-item3" style="flex: 2;">
-            <img src="dietplan.png" alt="Restaurant Management" class="project-images">
+            <img src="dietplan.png" alt="Diet Plan" class="project-images">
             <p>This is a detailed diet plan solver made with R. This program enables user to select from a wide array of food choices and the program
                 is able to calculate the dietary components of the food items chosen. The program utilizes various logical computations that enables
                 the program to compute the dietary requirements of each food combinations according to specified dietary restrictions.
@@ -99,11 +105,55 @@
 
     </div>
 
-    
+    <div class="flex-container4" id="autobiography">
+        <div class="flex-item4" style="flex: 3;">
+            <h1>Autobiography</h1>
+            <p>Back when I was choosing between various degree programs for college, I was torn on medicine, multimedia arts, and 
+                computer science. As a student whose crutial deciding stages were limited by the conditions brought by the pandemic,
+                I was grasping at straws on what academic career should I pursue once I graduate high-school. 
+                Ultimately, my interest in this field was piqued when I stumbled upon aan interesting youtube video that tackles how programming
+                and animation goes hand-in-hand. From there, I delved into more applications of computer science in the media and creativity
+                field. Moving forward, I am committed to honing my skills, exploring new technologies, and expanding 
+                my knowledge to bridge the gap between computation and creativity.
+                
+            </p>
+        </div>
 
-    <div class="flex-container2" id="Autobiography">
+        <div class="flex-item5" style="flex: 5;">
+            <h1>Skills</h1>
+            <img src="python.png" alt="Python" class="language-images">
+            <img src="cprog.png" alt="C" class="language-images">
+            <img src="java.png" alt="Java" class="language-images">
+            <img src="rstudio.png" alt="Python" class="language-images">
+            <img src="dart.png" alt="dart" class="language-images">
+            <img src="photoshop.png" alt="dart" class="language-images">
+            <img src="illustrator.png" alt="dart" class="language-images">
+            
 
+
+        </div>
     </div>
+
+    <footer class ="footer">
+        <div class="footer-container">
+            <div class ="footer-info">
+                <img src="logover1.png" alt="logo" class="footer-logo" style="width:251px;height:99px;">
+                <p><strong>Address:</strong>L2 B4 Mint St. Batong Malake, Los Banos Laguna Philippines</p>
+                <p><strong>Contact:</strong>vcgonzales@up.edu.ph</p>
+                <p><strong>Website:</strong> <a href="https://cmsc100-laboratory.github.io/html-and-css-vinzzales/" target="_blank">https://cmsc100-laboratory.github.io/html-and-css-vinzzales/</a> </p>
+            </div>
+            <div class="footer-button">
+                <button onclick="scrollToTop()">Back to Top</button>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 
   </body>
 

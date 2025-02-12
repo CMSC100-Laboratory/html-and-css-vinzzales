@@ -14,7 +14,7 @@ img.page-header {
     gap: 10px;
 }
 
-/* Center the entire nav */
+/* Centers the entire nav */
 nav {
     display: flex;
     background-color: #1c00ff;
@@ -25,6 +25,8 @@ nav {
     align-items: center; 
     text-align: center;
 }
+
+/* Modifies the image buttons */
 .navigation-buttons {
     width: 60px; 
     height: 60px;
@@ -32,10 +34,12 @@ nav {
     border-radius: 10px;
 }
 
+
 .navigation-buttons:hover {
     transform: scale(1.05);
 }
 
+/* Modifies the flex1 container */
 .flex-container1 {
     display: flex;
     justify-content: center; 
@@ -62,7 +66,7 @@ nav {
 }
 
 
-
+/* Modifies the video file */
 .featuredvideo{
     width: 100%; 
     max-width: 10000px; 
@@ -70,6 +74,7 @@ nav {
 
 }
 
+/* Modifies the greetings section*/
 .flex-item2 h1, h2{
     border-style: solid;
     background-color: #ffffff;
@@ -102,7 +107,7 @@ nav {
     padding: 10px;
     margin-bottom: 0px;
 }
-
+/* Modifies the projects section*/
 .flex-container3 {
     display: flex;
     border-style: solid;
@@ -164,3 +169,129 @@ img.page-header {
     padding: 10px;
 
 }
+
+/* Modifies the autobiography and skills section*/
+
+.flex-container4 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-style: solid;
+    border-color: #1c00ff;
+    background-color: #1c00ff;
+    border-width: 10px;
+    flex-direction: row;
+}
+
+
+.flex-item4 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    color:#ffffff;
+
+}
+
+
+
+.flex-item4 p{
+    text-align: justify;
+    font-family: 'Gill Sans', sans-serif;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.flex-item5{
+    background-color: #ffffff;
+}
+
+.flex-item5 p{
+    text-align: justify;
+    font-family: 'Gill Sans', sans-serif;
+    color: #1c00ff;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.flex-item4 h1{
+    border-style: solid;
+    background-color: #ffffff;
+    border-width: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    color: #1c00ff;
+}
+
+.flex-item5 h1{
+    border-style: solid;
+    background-color: #ffffff;
+    border-width: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    color: #1c00ff;
+}
+
+.language-images{
+    width: 100px; 
+    height: 100px;
+    margin-top: 15px; 
+    border-radius: 10px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Modifies the footer section*/
+.footer {
+    background-color: #ffffff;
+    color: 1c00ff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer-info {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.footer-info a{
+    color: #1c00ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-button button {
+    background-color: white;
+    color: #1c00ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-button button:hover {
+    background-color: #ddd;
+}
+
+
