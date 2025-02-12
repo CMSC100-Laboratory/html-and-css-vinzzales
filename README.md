@@ -3,7 +3,7 @@ Name: Vinz uriel C. Gonzales
 Degree Program BS Computer Science
 
 Live Website Link
-[https://cmsc100-laboratory.github.io/html-and-css-NikaTauro/](https://cmsc100-laboratory.github.io/html-and-css-vinzzales/)
+(https://cmsc100-laboratory.github.io/html-and-css-vinzzales/)
 
 Steps on how to create GitHub page
 1.) In your local repository make sure to add, commit and push the applicable changes
